@@ -12,7 +12,7 @@ description: Create and manage a git worktree for parallel feature development, 
    - Default branch pattern: `feat/<slug>`.
    - If the user already has a branch name, use it.
 3. Choose a base directory for linked worktrees.
-   - Default for this repo: `../optifly-wt` (create it if missing).
+   - Default for this repo: `../<project_name>-wt` (create it if missing).
 4. Create the worktree.
    - New branch: `git worktree add -b feat/<slug> <base>/<slug>`
    - Existing branch: `git worktree add <base>/<slug> <branch>`
